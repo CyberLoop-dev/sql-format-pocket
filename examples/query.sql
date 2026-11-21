@@ -1,0 +1,1 @@
+select u.id,u.name,o.total from users u inner join orders o on o.user_id=u.id where u.active=1 and o.total>25 order by o.total desc;

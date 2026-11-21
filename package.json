@@ -1,0 +1,11 @@
+{
+  "name": "sql-format-pocket",
+  "version": "1.0.0",
+  "description": "A dependency-free SQL formatter CLI that preserves quoted strings and comments while organizing common clauses and expressions.",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
